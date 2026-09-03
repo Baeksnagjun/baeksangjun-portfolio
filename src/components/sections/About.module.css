@@ -1,0 +1,40 @@
+.title {
+    font-size: 2rem;
+    font-weight: 1000;
+    text-align: center;
+    margin: 40px;
+    
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    
+}
+
+.photo{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.cards{
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 1fr 1fr
+}
+.card{
+    padding: 13px 15px;
+    border-radius: 9px;
+    border: 1px solid #e2e8f0;
+
+}
+.desc{
+    text-align: center;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    margin: 20px;
+}

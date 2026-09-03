@@ -14,16 +14,16 @@ export type Profile = {
 };
 
 export const profile: Profile = {
-  name: '',
-  tagline: '',
-  summary: '',
-  lastUpdate: '',
-  photo: '',
-  birthdate: '',
-  location: '',
-  education: '',
-  about: '',
-  email: '',
-  github: '',
+  name: '백상준',
+  tagline: '안녕하세요 개발자',
+  summary: '백엔드 개발자를 희망하고 있습니다',
+  lastUpdate: '2026년',
+  photo: '/profilleph.jpeg',
+  birthdate: '2000년 2월 10일',
+  location: '서울시 서대문구',
+  education: '한성대학교 컴퓨터공학과',
+  about: '자기소개입니다',
+  email: 'juny200@naver.com',
+  github: '깃허브@주소',
   resumeUrl: '',
 };
