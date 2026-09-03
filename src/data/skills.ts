@@ -7,14 +7,14 @@ export type SkillItem = {
 };
 
 export type SkillCategory = {
-  id: 'frontend' | 'backend' | 'tool-infra' | 'ai';
+  id: 'Languages' | 'Framework & Libraries' | 'Database' | 'Tools';
   label: string;
   items: SkillItem[];
 };
 
 export const skills: SkillCategory[] = [
-  { id: 'frontend', label: 'Frontend', items: [] },
-  { id: 'backend', label: 'Backend', items: [] },
-  { id: 'tool-infra', label: 'Tool / Infra', items: [] },
-  { id: 'ai', label: 'AI 툴', items: [] },
+  { id: 'Languages', label: 'Languages', items: [] },
+  { id: 'Framework & Libraries', label: 'Framework & Libraries', items: [] },
+  { id: 'Database', label: 'Database', items: [] },
+  { id: 'Tools', label: 'Tools', items: [] },
 ];
