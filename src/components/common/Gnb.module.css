@@ -1,4 +1,5 @@
 .gnb {
+    position: fixed;
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -7,6 +8,8 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     height: 80px;
     align-items: center;
+    width: 100%;
+
 }
 
 .menu {
