@@ -1,0 +1,36 @@
+.title {
+    font-size: 2rem;
+    font-weight: 1000;
+    text-align: center;
+    margin: 40px;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo {
+    border-radius: 1;
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.careername{
+    font-size: 40px;
+}
+.employment{
+    font-size: 20px;
+    color: rgb(108, 124, 137);
+    margin: 10px;
+}
+
+.part{
+    font-size: 25px;
+    color: rgb(53, 43, 43);
+}

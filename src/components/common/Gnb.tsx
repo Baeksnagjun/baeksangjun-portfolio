@@ -4,13 +4,13 @@ import styles from './Gnb.module.css';
 export default function Gnb() {
   return (
     <header className={styles.gnb}>
-      <h2 className={styles.logo}>백상준 포트폴리오</h2>
+      <a href="#hero" className={styles.logo}>백상준 포트폴리오</a>
       <nav className={styles.menu}>
-      <h3 className={styles.pageBtn}>About me</h3>
-      <h3 className={styles.pageBtn}>Skills</h3>
-      <h3 className={styles.pageBtn}>Projects</h3>
-      <h3 className={styles.pageBtn}>Career</h3>
-      <ThemeSwitcher />
+        <a href="#about" className={styles.pageBtn}>About me</a>
+        <a href="#skills" className={styles.pageBtn}>Skills</a>
+        <a href="#projects" className={styles.pageBtn}>Projects</a>
+        <a href="#career" className={styles.pageBtn}>Career</a>
+        <ThemeSwitcher />
       </nav>
     </header>
   );

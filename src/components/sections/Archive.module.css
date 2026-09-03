@@ -1,0 +1,39 @@
+.title {
+    font-size: 2rem;
+    font-weight: 1000;
+    text-align: center;
+    margin: 40px;
+
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+.card {
+
+    padding: 13px 15px;
+    border-radius: 15px;
+    border: 1px solid #e2e8f0;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+
+}
+.link{
+    font-size: 20px;
+    color: rgb(137, 71, 135);
+}
+
+.desc{
+    font-size: 15px;
+    color: #797a7b;
+}

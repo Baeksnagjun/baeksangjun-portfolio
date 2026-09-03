@@ -3,7 +3,7 @@ import styles from './Skills.module.css';
 
 export default function Skills() {
   return (
-    <section className={styles.skills}>
+    <section id="skills" className={styles.skills}>
       <h2 className={styles.title}>📎Skills</h2>
 
       <div className={styles.grid}>
