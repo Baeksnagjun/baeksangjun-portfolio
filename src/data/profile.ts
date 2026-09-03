@@ -22,7 +22,7 @@ export const profile: Profile = {
   birthdate: '2000년 2월 10일',
   location: '서울시 서대문구',
   education: '한성대학교 컴퓨터공학과',
-  about: '자기소개입니다',
+  about: '자기소개입니다자기소개입니다자기소개입니다자기소개입니다자기소개입니다자기소개입니다자기소개입니다자기소개입니다자기소개입니다자기소개입니다자기소개입니다자기소개입니다자기소개입니다',
   email: 'juny200@naver.com',
   github: '깃허브@주소',
   resumeUrl: '',

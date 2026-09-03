@@ -10,6 +10,8 @@ export default function Gnb() {
         <a href="#skills" className={styles.pageBtn}>Skills</a>
         <a href="#projects" className={styles.pageBtn}>Projects</a>
         <a href="#career" className={styles.pageBtn}>Career</a>
+        <a href="#archive" className={styles.pageBtn}>Archive</a>
+        
         <ThemeSwitcher />
       </nav>
     </header>

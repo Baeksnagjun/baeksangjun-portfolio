@@ -3,35 +3,40 @@
     font-weight: 1000;
     text-align: center;
     margin: 40px;
-    
+
 }
 
-.grid{
+.grid {
     display: flex;
     flex-direction: row;
     margin: 50px;
     justify-content: center;
     gap: 60px;
 
-    
+
 }
-.cards{
+
+.cards {
     display: flex;
     flex-direction: row;
     gap: 40px;
 
 
 }
-.label{
+
+.label {
     background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+
 }
 
-.card{
+.card {
     padding: 13px 15px;
     border-radius: 9px;
     border: 1px solid #e2e8f0;
     background-color: #e2e8f0;
-    
+
     width: 400px;
     height: 600px;
 

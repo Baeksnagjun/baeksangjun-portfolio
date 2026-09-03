@@ -4,7 +4,7 @@ import styles from './Archive.module.css';
 
 export default function Archive() {
   return (
-    <section id="career" className={styles.career} >
+    <section id="archive" className={styles.archive} >
     <h2 className={styles.title}>📎Archive</h2>
     <div className={styles.cards}>
       <div className={styles.card}>
