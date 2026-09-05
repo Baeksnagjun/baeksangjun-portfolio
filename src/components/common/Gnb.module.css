@@ -9,6 +9,7 @@
     height: 80px;
     align-items: center;
     width: 100%;
+    z-index: 100;
 
 }
 
