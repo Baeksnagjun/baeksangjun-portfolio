@@ -25,34 +25,17 @@ export default function Skills() {
     <section id="skills" className={styles.skills}>
       <h2 className={styles.title}>📎Skills</h2>
       <div className={styles.box}>
-        <div className={styles.row}>
-          <p className={styles.label}>{data[0].label}</p>
+        {data.map((skill)=>(
+          <div key={skill.id} className={styles.row}>
+          <p className={styles.label}>{skill.label}</p>
           <div className={styles.tags}>
-            <span className={styles.tag}>{data[0].items[0]}</span>
-            <span className={styles.tag}>{data[0].items[1]}</span>
-            <span className={styles.tag}>{data[0].items[2]}</span>
+            {skill.items.map((name:string)=>(
+              <span className={styles.tag}>{name}</span>
+            ))}
+
           </div>
         </div>
-        <div className={styles.row}>
-          <p className={styles.label}>{data[1].label}</p>
-          <div className={styles.tags}>
-            <span className={styles.tag}>{data[1].items[0]}</span>
-          </div>
-        </div>
-        <div className={styles.row}>
-          <p className={styles.label}>{data[2].label}</p>
-          <div className={styles.tags}>
-            <span className={styles.tag}>{data[2].items[0]}</span>
-            <span className={styles.tag}>{data[2].items[1]}</span>
-          </div>
-        </div>
-        <div className={styles.row}>
-          <p className={styles.label}>{data[3].label}</p>
-          <div className={styles.tags}>
-            <span className={styles.tag}>{data[3].items[0]} </span>
-            <span className={styles.tag}>{data[3].items[1]} </span>
-          </div>
-        </div>
+        ))}
       </div>
     </section>
   )

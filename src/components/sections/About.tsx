@@ -1,20 +1,11 @@
-
-import { useQuery } from '@tanstack/react-query';
 import styles from './About.module.css';
-import { supabase } from '../../shared/api/supabase';
+import { useProfile } from '../../shared/hooks/useProfile';
 
 export default function About() {
   
 
 
-const {data, isPending, error}=useQuery({
-  queryKey:['profile'],
-  queryFn: async ()=>{
-    const { data, error}= await supabase.from('profile').select('*').single();
-    if (error) throw error;
-    return data;
-  },
-})
+const {data, isPending, error}=useProfile();
 if (isPending) return <section id="about">불러오는 중</section>;
 if (error) return <section id="about">불러오기 실패</section>;
 
