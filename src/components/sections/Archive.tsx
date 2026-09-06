@@ -25,7 +25,7 @@ if (error) return <section id="about">불러오기 실패</section>;
       <div className={styles.card}>
         <p className={styles.category}>전화번호</p>
         <p className={styles.link}>{data.phone}</p>
-        <p className={styles.dessc}>전화번호</p>
+        <p className={styles.desc}>전화번호</p>
       </div>
     </div>
   </section>

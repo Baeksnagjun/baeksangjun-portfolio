@@ -5,7 +5,9 @@
     margin: 40px;
 
 }
-
+.skills{
+  padding: 70px;
+}
 
 .box {
   max-width: 1000px;
@@ -41,3 +43,9 @@
   color: #fff;
   font-weight: 700;
 }
+
+.tag:nth-child(5n + 1) { background: #4b7bec; }
+.tag:nth-child(5n + 2) { background: #20bf6b; }
+.tag:nth-child(5n + 3) { background: #fd9644; }
+.tag:nth-child(5n + 4) { background: #a55eea; }
+.tag:nth-child(5n + 5) { background: #fc5c65; }

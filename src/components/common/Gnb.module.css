@@ -4,8 +4,8 @@
     flex-direction: row;
     gap: 10px;
     justify-content: space-between;
-    background: #4b4545;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
     height: 80px;
     align-items: center;
     width: 100%;
@@ -22,12 +22,12 @@
 .pageBtn{
     font-size: 1.3rem;
     font-weight: 800;
-    color: #fff;
+    color: #0b0b0b;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.18);
 }
 .logo {
     margin-left: 20px;
-    color: #fff;
+    color: #030303;
     font-size: 2rem;
     font-weight: 800;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.18);
