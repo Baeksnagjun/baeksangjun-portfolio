@@ -35,7 +35,7 @@
 }
 .link{
     font-size: 20px;
-    color: rgb(143, 203, 86);
+    color:var(--primary-color);
 }
 
 .desc{

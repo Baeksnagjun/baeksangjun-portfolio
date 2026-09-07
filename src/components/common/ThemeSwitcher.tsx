@@ -2,7 +2,7 @@ import { useState } from 'react';
 import styles from './ThemeSwitcher.module.css';
 import { useDispatch, useSelector } from 'react-redux';
 import type { RootState } from '../../shared/store/store';
-import { setBackgroundColor } from '../../shared/store/themeSlice';
+import {  setPrimaryColor } from '../../shared/store/themeSlice';
 
 
 const themes = [
@@ -16,10 +16,10 @@ export default function ThemeSwitcher() {
   const [open, setOpen] = useState(false);
 
   const dispatch = useDispatch();
-  const backgroundColor = useSelector(
-    (state: RootState) => state.theme.backgroundColor
+  const primaryColor = useSelector(
+    (state: RootState) => state.theme.primaryColor
   )
-  const current = themes.find((item) => item.color === backgroundColor) ?? themes[0];
+  const current = themes.find((item) => item.color === primaryColor) ?? themes[0];
   return <div className={styles.wrap}>
     <button
       type="button"
@@ -40,7 +40,7 @@ export default function ThemeSwitcher() {
             key={item.name}
             className={styles.item}
             onClick={() => {
-              dispatch(setBackgroundColor(item.color));
+              dispatch(setPrimaryColor(item.color));
               setOpen(false);
             }}
           >

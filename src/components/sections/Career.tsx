@@ -4,24 +4,7 @@ import styles from './Career.module.css';
 import { supabase } from '../../shared/api/supabase';
 
 export default function Career() {
-  type CareerType = 'intern' | 'hackathon' | 'activity' | 'bootcamp';
-
-  type CareerItem = {
-    title: string;
-    period: string;
-    description: string;
-  };
-
-  type Career = {
-    type: CareerType;
-    name: string;
-    logo: string;
-    period: string;
-    quote: string;
-    roles: string[];
-    awardScale: string;
-    items: CareerItem[];
-  };
+  
 
   const { data, isPending, error } = useQuery({
     queryKey: ['career'],

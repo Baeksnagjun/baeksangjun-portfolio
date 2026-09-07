@@ -1,12 +1,15 @@
 import { useSelector } from 'react-redux';
 import { useProfile } from '../../shared/hooks/useProfile';
 import styles from './Hero.module.css';
+import type { RootState } from '../../shared/store/store';
+
 
 export default function Hero() {
 
-  const backgroundColor = useSelector(
-    (state) => state.theme.backgroundColor
+  const primaryColor = useSelector(
+    (state:RootState) => state.theme.primaryColor
   );
+
 
   const { data, isPending, error } = useProfile();
   if (isPending) return <section id="about">불러오는 중</section>;
@@ -14,7 +17,7 @@ export default function Hero() {
   return <section
     id="hero"
     className={styles.hero}
-    style={{ "--bg-color": backgroundColor } as React.CSSProperties}
+    style={{ "--primary-color": primaryColor } as React.CSSProperties}
   >
     <h2>{data.tagline}</h2>
     <h1>{data.name}</h1>
