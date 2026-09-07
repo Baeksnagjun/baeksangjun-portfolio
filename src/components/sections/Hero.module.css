@@ -1,5 +1,5 @@
 .hero {
-    background-color: rgb(156, 213, 22);
+    background-color: var(--bg-color);
     height: 800px;
     display: flex;
     flex-direction: column;
