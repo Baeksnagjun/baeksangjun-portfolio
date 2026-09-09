@@ -1,6 +1,7 @@
 # baek-portfolio
 
 개인 포트폴리오 웹사이트. 단일 페이지에 섹션을 스크롤로 이어 붙인 구조입니다.
+https://baeksangjun-portfolio.vercel.app/
 
 ## 기술 스택
 
