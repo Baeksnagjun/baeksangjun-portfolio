@@ -27,7 +27,7 @@ export default function ProjectModal({ project, onClose }: {
 
         
       <div className={styles.body}>
-        <p className={styles.desc}>{project.description}</p>
+        {/*<p className={styles.desc}>{project.description}</p> 이미지가 들어오며 필요없어짐*/}
         <img className={styles.modalimg} src={project.modal}/>
       </div>
         

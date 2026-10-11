@@ -6,10 +6,10 @@ import {  setPrimaryColor } from '../../shared/store/themeSlice';
 
 
 const themes = [
-  { name: '네이버 그린', color: '#03c75a' },
-  { name: '카카오 옐로우', color: '#fee500' },
-  { name: '토스 블루', color: '#3182f6' },
-  { name: '당근 오렌지', color: '#ff6f0f' },
+  { name: '그린', color: '#03c75a' },
+  { name: '옐로우', color: '#fee500' },
+  { name: '블루', color: '#3182f6' },
+  { name: '오렌지', color: '#ff6f0f' },
 ];
 export default function ThemeSwitcher() {
 
